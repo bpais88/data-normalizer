@@ -1,0 +1,15 @@
+# .gitignore
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# Node.js
+frontend/node_modules/
+frontend/.env
+
+# General
+*.log
+.DS_Store
+.vercel
