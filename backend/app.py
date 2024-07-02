@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import openai
 import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 
 app = Flask(__name__)
 
